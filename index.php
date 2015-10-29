@@ -5,10 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="I’m a User Experience Designer, Website Developer, Social Media Communicator and Campaign Strategist from the UK with over 5 years of industry experience from Cardiff." />
 		<meta name="keywords" content="jordan owen, owen, web design, ui design, ux design, website design, user interface design, user experience design, responsive design, mobile design, web development, website development, freelance web design, web design cardiff, website design cardiff, political campaign, strategist, strategy, social media" />
-		<title>Jordan Owen</title>
+		<title>Jordan Owen -  User Experience Designer & Web Developer</title>
 		<link rel="stylesheet" href="style.css" media="all" />
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+			(function() {
+			var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
+			hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
 		<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 		<![endif]-->
@@ -22,7 +30,7 @@
 			
 					<section id="main-header">
 					
-						<h1><a href="">Jordan Owen</a></h1>
+						<h1><a href="#index.php">Jordan Owen</a></h1>
 						
 						<nav>
 							<ul>
@@ -57,7 +65,7 @@
 					
 					<p>Communicator, Strategist & Solutions Architect</p>
 							
-					<a class="red-button" href="#contact-section">Let’s Achieve Something!</a>
+					<a class="red-button smooth" href="#contact-section">Let’s Achieve Something!<span>Let’s Achieve Something!</span></a>
 				
 				</section>
 				
@@ -152,7 +160,7 @@
 			</a>
 			
 			
-			<a href="//dribbble.com/shots/1776876-Aspiration-Hosting-Redesign?list=users&offset=2" target="_blank" class="projectbox" id="aspirationhosting">
+			<a href="https://jordanowen.co.uk/projects/aspirationhosting/" target="_blank" class="projectbox" id="aspirationhosting">
 				<div class="project-info-container">
 					
 					<div class="left-content">
@@ -450,7 +458,7 @@
 					
 					<h4>Establish</h4>
 					
-					<p>After the product has been polished and revised according to client and user feedback then begin to make sure there are no deficiencies or undesirable features. Every aspect is finely optimised to guarantee longevity in success.</p>
+					<p>After the product has been polished and revised according to client and user feedback I then begin to make sure there are no deficiencies or undesirable features. Every aspect is finely optimised to guarantee longevity in success.</p>
 				
 				</div>
 			
@@ -496,7 +504,7 @@
 						<textarea name="message" placeholder="If you have a exciting new project or any general inquires please send me a message. If you use an instant messenger such as Skype, please include your username here."></textarea>
 					</span>
 				
-					<button class="red-button" type="submit">Let's Achieve Something!</button>
+					<button class="red-button" type="submit">Let’s Achieve Something!</button>
 				
 				</form>
 				
@@ -528,15 +536,22 @@
 	
 		<div id="shadow"></div>
 
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 		
 		<script src="js/main.js"></script>
 		
 		<script>transformicons.add('.tcon')</script>
 		
-		<script src="//use.typekit.net/okk0yrr.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		
-		<script>try{Typekit.load();}catch(e){}</script>
+		  ga('create', 'UA-49745058-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
 		
 	</body>
 	

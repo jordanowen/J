@@ -11,8 +11,6 @@ if (count($_POST) < 1) {
 // Form values
 $name = $_POST['name'];
 $email = $_POST['email'];
-$timeframe = $_POST['timeframe'];
-$budget = $_POST['budget'];
 $message = $_POST['message'];
 $errors = array();
 
@@ -38,8 +36,6 @@ if (count($errors) < 1) {
 	// Build email message
 	$mail = 'Name: ' . clean($name) . "\r\n";
 	$mail .= 'Email: ' . $email . "\r\n";
-	$mail .= 'Timeframe: ' . clean($timeframe) . "\r\n";
-	$mail .= 'Budget: ' . clean($budget) . "\r\n";
 	$mail .= 'Message: ' . clean($message) . "\r\n\r\n";
 	$mail .= 'IP Address: ' . $_SERVER['REMOTE_ADDR'] . "\r\n";
 	$mail .= 'Browser: ' . $_SERVER['HTTP_USER_AGENT'] . "\r\n";
